@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eagletech Survey Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Eagletech Survey Form</h1>
+
+	<form id="form">
+
+		<div class="form-control">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="e.g., Eagletech" required />
+		</div>
+
+		<div class="form-control">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="e.g., eagletech@gmail.com" required />
+		</div>
+
+		<div class="form-control">
+			<label for="age">Age</label>
+			<input type="number" id="age" name="age" placeholder="e.g., 26" required />
+		</div>
+
+		<div class="form-control">
+			<label for="role">Which option best describes you?</label>
+			<select id="role" name="role" required>
+				<option value="student">Student</option>
+				<option value="intern">Intern</option>
+				<option value="professional">Professional</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label for="after-role">Other</label>
+			<input type="text" id="after-role" name="after-role" placeholder="If other, state here" />
+		</div>
+
+		<div class="form-control">
+			<label>Would you recommend Eagletech Services to a friend?</label>
+			<label for="recommed-1">
+				<input type="radio" id="recommed-1" name="recommed" value="yes"> Yes
+			</label>
+			<label for="recommed-2">
+				<input type="radio" id="recommed-2" name="recommed" value="no"> No
+			</label>
+			<label for="recommed-3">
+				<input type="radio" id="recommed-3" name="recommed" value="maybe"> Maybe
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label>Languages and Frameworks known (Check all that apply)</label>
+			<label for="inp-html">
+				<input type="checkbox" id="inp-html" name="inp" value="HTML"> HTML
+			</label>
+			<label for="inp-css">
+				<input type="checkbox" id="inp-css" name="inp" value="CSS"> CSS
+			</label>
+			<label for="inp-js">
+				<input type="checkbox" id="inp-js" name="inp" value="JavaScript"> JavaScript
+			</label>
+			<label for="inp-java">
+				<input type="checkbox" id="inp-java" name="inp" value="Java"> Java
+			</label>
+			<label for="inp-python">
+				<input type="checkbox" id="inp-python" name="inp" value="Python"> Python
+			</label>
+			<label for="inp-nodejs">
+				<input type="checkbox" id="inp-nodejs" name="inp" value="NodeJS"> NodeJS
+			</label>
+			<label for="inp-react">
+				<input type="checkbox" id="inp-react" name="inp" value="React"> React
+			</label>
+			<label for="inp-angular">
+				<input type="checkbox" id="inp-angular" name="inp" value="Angular"> Angular
+			</label>
+			<label for="inp-django">
+				<input type="checkbox" id="inp-django" name="inp" value="Django"> Django
+			</label>
+			<label for="inp-spring">
+				<input type="checkbox" id="inp-spring" name="inp" value="Spring"> Spring
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">Any comments or suggestions</label>
+			<textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+		</div>
+
+		<button type="submit">Submit</button>
+	</form>
+</body>
+
+</html>
