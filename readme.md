@@ -23,7 +23,7 @@ To run this project on your local machine, you can either clone the repository o
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/NdifrekeBassey/eagletech-survey-form.git
+   git clone https://github.com/ndifreke-bassey/survey-form.git
 
 2. Open the files:
 
@@ -36,8 +36,8 @@ After downloading, open the folder containing the HTML and CSS files in your bro
 
 🗂️ File Structure
 
-/eagletech-survey-form
-    ├── survey-form.html        # The main HTML file for the form
+/survey-form
+    ├── index.html        # The main HTML file for the form
     └── style.css               # The stylesheet for the form's design
 
 
@@ -112,7 +112,7 @@ This project is open source and available under the MIT License. Feel free to fo
 
 For any questions or contributions, feel free to reach out:
 
-Your Name (e.g., Ndifreke-Abasi Bassey)
+Ndifreke-Abasi Bassey
 
 Email: [ndifrekebassey13@gmail.com]
 
